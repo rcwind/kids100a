@@ -8,8 +8,6 @@ project(kids100a_bringup)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  kids100a_description
-  robot_state_publisher
   rosserial_python
 )
 
@@ -105,7 +103,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES kids100a_bringup
-#  CATKIN_DEPENDS kids100a_description robot_state_publisher rosserial_python
+#  CATKIN_DEPENDS rosserial_python
 #  DEPENDS system_lib
 )
 
