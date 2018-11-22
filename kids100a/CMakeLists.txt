@@ -103,7 +103,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES kids100a
-#  CATKIN_DEPENDS krb100m_bringup krb100m_description krb100m_navigation krb100m_slam
+#  CATKIN_DEPENDS krb100m_bringup 
 #  DEPENDS system_lib
 )
 

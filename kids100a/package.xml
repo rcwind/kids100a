@@ -49,18 +49,9 @@
   <!-- Use doc_depend for packages you need only for building documentation: -->
   <!--   <doc_depend>doxygen</doc_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
-  <build_depend>krb100m_bringup</build_depend>
-  <build_depend>krb100m_description</build_depend>
-  <build_depend>krb100m_navigation</build_depend>
-  <build_depend>krb100m_slam</build_depend>
-  <build_export_depend>krb100m_bringup</build_export_depend>
-  <build_export_depend>krb100m_description</build_export_depend>
-  <build_export_depend>krb100m_navigation</build_export_depend>
-  <build_export_depend>krb100m_slam</build_export_depend>
-  <exec_depend>krb100m_bringup</exec_depend>
-  <exec_depend>krb100m_description</exec_depend>
-  <exec_depend>krb100m_navigation</exec_depend>
-  <exec_depend>krb100m_slam</exec_depend>
+  <build_depend>kids100a_bringup</build_depend>
+  <build_export_depend>kids100a_bringup</build_export_depend>
+  <exec_depend>kids100a_bringup</exec_depend>
 
 
   <!-- The export tag contains other, unspecified, tags -->
