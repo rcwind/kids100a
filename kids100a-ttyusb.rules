@@ -1,3 +1,5 @@
 SUBSYSTEM=="tty", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="5740", ATTRS{product}=="KIDS100A", MODE:="0666", GROUP:="dialout", SYMLINK+="kids100a"
-# SUBSYSTEM=="tty", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", ATTRS{serial}=="kicc100w", MODE:="0666", GROUP:="dialout", SYMLINK+="kicc100w"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", ATTRS{product}=="KICC100W", MODE:="0666", GROUP:="dialout", SYMLINK+="kicc100w"
+# SUBSYSTEM=="tty", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="5740", ATTRS{serial}=="KIDS100A", MODE:="0666", GROUP:="dialout", SYMLINK+="kids100a"
+# SUBSYSTEM=="tty", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", ATTRS{serial}=="KICC100W", MODE:="0666", GROUP:="dialout", SYMLINK+="kicc100w"
 
