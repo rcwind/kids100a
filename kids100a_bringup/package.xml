@@ -50,8 +50,11 @@
   <!--   <doc_depend>doxygen</doc_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>rosserial_python</build_depend>
+  <build_depend>kids100a_msg</build_depend>
   <build_export_depend>rosserial_python</build_export_depend>
+  <build_export_depend>kids100a_msg</build_export_depend>
   <exec_depend>rosserial_python</exec_depend>
+  <exec_depend>kids100a_msg</exec_depend>
 
 
   <!-- The export tag contains other, unspecified, tags -->
