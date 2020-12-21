@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>kids100a</name>
+  <name>opflow_bringup</name>
   <version>0.0.0</version>
-  <description>The kids100a package</description>
+  <description>The opflow_bringup package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
@@ -19,7 +19,7 @@
   <!-- Url tags are optional, but multiple are allowed, one per tag -->
   <!-- Optional attribute type can be: website, bugtracker, or repository -->
   <!-- Example: -->
-  <!-- <url type="website">http://wiki.ros.org/kids100a</url> -->
+  <!-- <url type="website">http://wiki.ros.org/opflow_bringup</url> -->
 
 
   <!-- Author tags are optional, multiple are allowed, one per tag -->
@@ -49,9 +49,12 @@
   <!-- Use doc_depend for packages you need only for building documentation: -->
   <!--   <doc_depend>doxygen</doc_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
-  <build_depend>kids100a_bringup</build_depend>
-  <build_export_depend>kids100a_bringup</build_export_depend>
-  <exec_depend>kids100a_bringup</exec_depend>
+  <build_depend>rosserial_python</build_depend>
+  <build_depend>opflow_msg</build_depend>
+  <build_export_depend>rosserial_python</build_export_depend>
+  <build_export_depend>opflow_msg</build_export_depend>
+  <exec_depend>rosserial_python</exec_depend>
+  <exec_depend>opflow_msg</exec_depend>
 
 
   <!-- The export tag contains other, unspecified, tags -->

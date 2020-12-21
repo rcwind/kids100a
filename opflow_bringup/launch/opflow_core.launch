@@ -1,0 +1,11 @@
+<launch>
+
+  <node pkg="rosserial_python" type="serial_node.py" name="opflow_core" output="screen">
+    <param name="port" value="/dev/opflow"/>
+    <param name="baud" value="115200"/>
+  </node>
+  <node pkg="opflow" type="twist_data.py" name="data_converter" />
+  <!-- <node pkg="opflow" type="pose_data.py" name="data_converter" /> -->
+  <include file="$(find opflow)/launch/ekf_robot_localization.launch"/>
+
+</launch>

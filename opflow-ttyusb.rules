@@ -1,0 +1,5 @@
+SUBSYSTEM=="tty", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="5740", ATTRS{product}=="opflow", MODE:="0666", GROUP:="dialout", SYMLINK+="opflow"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="5740", ATTRS{serial}=="opflow", MODE:="0666", GROUP:="dialout", SYMLINK+="opflow"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="5740", ATTRS{product}=="OPFLOW", MODE:="0666", GROUP:="dialout", SYMLINK+="opflow"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="5740", ATTRS{serial}=="OPFLOW", MODE:="0666", GROUP:="dialout", SYMLINK+="opflow"
+
