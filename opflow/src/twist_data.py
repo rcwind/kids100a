@@ -15,7 +15,8 @@ class optical_flow_conversion:
     def callback(self,data):
         self.current_time = rospy.get_rostime()
 
-        self.optical_odom.header.frame_id = 'optical'
+        self.optical_odom.header.frame_id = 'optical_link'
+        #  self.optical_odom.child_frame_id = 'base_link'
         self.optical_odom.header.stamp = self.current_time
 
         self.optical_odom.pose.pose.position.x = data.data[2]
