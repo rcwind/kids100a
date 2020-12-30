@@ -2,8 +2,8 @@
 
   <node pkg="tf" type="static_transform_publisher" name="optical_to_base_link" args="0.224 0 0 0 0 0 /base_link /optical_link 100" />
   <include file="$(find opflow_bringup)/launch/opflow_core.launch"/>
-  <node pkg="opflow" type="twist_data.py" name="data_converter" />
-  <!-- <node pkg="opflow" type="pose_data.py" name="data_converter" /> -->
+  <node pkg="opflow" type="twist_data.py" name="data_converter0" />
+  <node pkg="opflow" type="pose_data.py" name="data_converter1" />
   <include file="$(find opflow)/launch/ekf_robot_localization.launch"/>
 
 </launch>
